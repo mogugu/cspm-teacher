@@ -1,0 +1,672 @@
+/* Element ui 样式修改 */
+.el-dropdown{
+  /* border-bottom: 1px solid #ddd; */
+  font-size: .16rem;
+}
+
+.el-dropdown .el-dropdown-link{
+  line-height: .4rem;
+  display: inline-block;
+  width: 1.9rem;
+  padding-left: .1rem;
+}
+
+
+.el-icon--right{
+  float: right;
+  margin:.15rem 0;
+  color: #3283d3;
+  font-size: .1rem;
+  margin-right: .05rem;
+}
+
+.el-dropdown-menu{
+  width: 2rem;
+  margin:0 0;
+  padding: 0  0;
+  border:none;
+  color: #535353;
+}
+
+.el-dropdown-menu .el-dropdown-menu__item{
+  padding: 0 0;
+  padding-left: .1rem;
+  line-height: .5rem;
+}
+
+.el-dropdown-menu .el-dropdown-menu__item:hover{
+	/* background-color: #f2f2f2; */
+	color: #3298db;
+}
+
+/*时间控件*/
+.el-icon-time:before{
+	content: "\E604";
+	color: #3283d3;
+	font-size: .1rem;
+}
+
+.el-date-editor.el-input{
+	width: 2rem;
+	height: .4rem;
+	font-size: .16rem;
+	border:none !important;
+	border-bottom: 1px solid #ddd !important;
+	padding-left: .1rem;
+}
+
+#TaskPublish .el-date-editor.el-input{
+	border: 1px solid #ddd !important;
+	margin-bottom: 2px;
+}
+
+.el-input__icon+.el-input__inner{
+	width: 100%;
+	height: .4rem;
+	border:none;
+	/*border-bottom: 1px solid #ddd;*/
+	border-radius: 0;
+	padding: 0 0;
+}
+
+.el-date-editor.el-input .el-input__icon{
+	height: .4rem;
+	width: .12rem;
+	line-height: .4rem;
+	margin-right: .05rem;
+}
+
+.el-date-table td{
+	width: .32rem;
+	height: .32rem;
+	line-height: .32rem;
+}
+
+/*分页*/
+.el-pagination{
+	text-align: center;
+	font-size: .14rem;
+	font-weight: bold;
+}
+
+.el-pagination .el-pager li{
+	min-width: .32rem;
+	height: .32rem;
+	line-height: .32rem;
+}
+
+.el-pagination .btn-prev,
+.el-pagination .btn-next{
+	width: .32rem;
+	height: .32rem;
+	line-height: .32rem;
+}
+
+.el-pagination button,
+.el-pagination span {
+	height: .32rem;
+	line-height: .32rem;
+	border: 1px solid #d1dbe5;
+	background: #fff;
+	margin-bottom: 5px;
+}
+.el-pagination .el-select .el-input input {
+	padding: 0 0 1px 5px;
+	height: .2rem;
+}
+
+/*Dialog 弹窗*/
+.el-dialog {
+  border-radius: 5px;
+}
+
+.el-dialog__header {
+
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.el-dialog__title {
+  color: #535353;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #535353;
+}
+
+.global-router{
+	/* z-index: inherit !important; */
+}
+
+/*视频高度*/
+.video-player {
+  height: 100%;
+}
+
+.video-js.vjs-custom-skin {
+  height: 100%;
+}
+
+/*自定义弹出层宽度*/
+.dialog-edit-grade{
+  width: 6.2rem;
+}
+
+.choose-now-added-model{
+	width: 11rem;
+}
+
+.added-model-width{
+	width: 100% !important;
+}
+
+.dialog-edit-grade .el-dialog__body{
+	padding:0 0;
+	color: #535353;
+}
+
+.dialog-edit-grade ul.fs-16{
+	padding: .2rem .2rem 0 .2rem;
+}
+
+.dialog-edit-grade .el-dialog__footer,
+.finishTask-dialog .el-dialog__footer
+{
+	padding:.2rem 0;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+.finishTask-dialog .el-dialog__body{
+	text-align: center;
+	height: .8rem;
+	padding: .5rem 0;
+}
+
+/*按钮样式修改*/
+.el-button.el-button--default,
+.el-button.el-button--primary{
+	width: 1rem;
+	height: .38rem;
+	/*line-height: .38rem;*/
+	border:none;
+	outline: none;
+	font-size: .16rem;
+	padding: .06rem .17rem;
+}
+
+.el-button.el-button--default{
+	background-color: #e7e7e7;
+}
+
+.el-button.el-button--default:hover{
+	background-color: #d6d6d6;
+	color: #535353;
+}
+
+.el-button.el-button--primary{
+	background-color: #3f92e4;
+}
+
+.el-button.el-button--primary:hover{
+	background-color: #3283d3;
+}
+
+.el-autocomplete .el-input__inner{
+  border:1px solid #ddd;
+  padding-left: .1rem;
+  height: .4rem;
+  line-height: .4rem;
+  width: 4.9rem;
+  border-radius: none;
+}
+
+/* 复选框 */
+.el-checkbox-group .el-checkbox{
+	width: 1.5rem;
+	margin-bottom: .2rem;
+}
+
+.choose-now-added-model .el-checkbox-group .el-checkbox{
+	margin-bottom: 0;
+	height: .5rem;
+	line-height: .5rem;
+}
+
+.choose-now-added-model .el-checkbox-group .el-checkbox .el-checkbox__input{
+	margin-left: .4rem;
+}
+
+.choose-now-added-model .el-checkbox-group .el-checkbox:nth-child(even){
+	background-color: #f3f9fc;
+}
+
+.el-checkbox+.el-checkbox{
+	margin-left: 0px;
+}
+
+
+/* 公共题目样式  */
+.student-question-example{
+	border-bottom: 1px solid #ddd;
+	content: #535353;
+	margin-bottom: .2rem;
+}
+
+.student-question-example img{
+	max-width: 100%;
+}
+
+.student-question-example .question-tilte{
+	line-height: .28rem;
+	margin-bottom: .1rem;
+}
+
+.student-select-answer-list .pcdc-item-answeritem{
+	line-height: .28rem;
+	margin-bottom: .1rem;
+}
+
+.student-question-all-message{
+	margin-bottom: .1rem;
+	margin-top: .2rem;
+}
+
+div.self-make-button{
+	width: .96rem;
+	/*height: .26rem;*/
+	text-align: center;
+	line-height: .26rem;
+	border:.02rem solid #ddd;
+	border-radius: .2rem;
+	background-color: #fff;
+	color: #535353;
+	cursor: pointer;
+	font-size: .14rem;
+	margin-right: .3rem;
+}
+
+.wtt-msi-icon img{
+	width: .15rem;
+	height: .15rem;
+	cursor: pointer;
+}
+
+div.self-make-button:hover{
+	color: #3283d3;
+	border:.02rem solid #3283d3;
+}
+
+/*dialog 自定义宽度 custom-css*/
+.dialog-width-630 {
+  width: 6.3rem;
+}
+
+.dialog-width-760 {
+  width: 7.6rem;
+}
+
+
+/*自定义select选框*/
+.G-select-border-none .el-input__icon+.el-input__inner {
+  border-bottom: none;
+}
+
+/* 视频 上传  进度条 style*/
+
+.el-progress-bar__outer{
+	top: .2rem !important;
+	height: .28rem !important;
+	color:#535353;
+}
+
+.el-progress-bar__inner{
+	background-color: #32a0d3;
+}
+
+.knowlege-add-style{
+	height: 5rem;
+	border-top: 1px solid #ddd;
+}
+
+.knowlege-add-style #mts-container{
+	height: 5rem;
+}
+
+.input-search-knowlege{
+	margin:.2rem .3rem;
+}
+
+.input-search-knowlege .el-input__inner{
+	border-radius: .2rem
+}
+
+.Add-resource-top{
+	top: 5% !important;
+}
+
+.el-cascader__label {
+  border-bottom: 1px solid #ddd;
+}
+
+.el-cascader .el-input__icon {
+  color: #3283d3;
+}
+
+.upload-model-to-mall{
+	width: 6.25rem;
+}
+
+.upload-mall-resource{
+	text-align: center;
+	padding: .9rem 0;
+}
+
+.upload-mall-resource .fs-20{
+	color: #40bd14;
+	margin-bottom: .15rem;
+}
+
+/*  个人中心下拉框样式 */
+.drop-down-person-base .el-dropdown{
+	border:1px solid #ddd;
+	background-color: #fff;
+	height: .4rem;
+	line-height: .4rem;
+	/*width: 1.3rem;*/
+}
+
+/*.drop-down-person-base .el-dropdown .el-dropdown-link{
+	width: 1.2rem;
+}
+
+.person-base-message-list-example .el-date-editor.el-input{
+	border:1px solid #ddd;
+	width: 1.2rem;
+}*/
+
+.over-all-width-person-base-message-edit .el-dropdown-link{
+	background-color: #fff;
+	border:1px solid #ddd;
+}
+
+.dialog-work-item-grade .el-dialog__footer{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: .2rem 0 !important;
+}
+
+/* 富文本内样式 */
+
+.editor-add-resource{
+	display: inline-block;
+	border:2px solid #3498db;
+	line-height: .36rem;
+	border-radius:.2rem;
+	color:#535353;
+	font-size:.16rem;
+	outline: none;
+	background-color: #fff;
+	vertical-align: middle;
+	padding:0 .15rem;
+}
+
+.editor-add-resource .s_name{
+	/* margin-right: .2rem; */
+	display: inline-block;
+	line-height:.32rem;
+}
+
+.targetVideo,
+.targetMater,
+.targetPaper{
+	vertical-align: middle;
+}
+
+
+/* 渲染的任务内容 */
+.content-left{
+	width: 9.3rem;
+	background-color: #fff;
+	padding: .2rem 0;
+  }
+  .content-right{
+	 width: 2.7rem;
+	 right: 0;
+	 top: 0
+  }
+  .border-bottom{
+	/* border-bottom: 1px dashed #ddd; */
+	color: #535353;
+  }
+  .baseinfo-right{
+	text-align: center;
+  }
+  .baseinfo-right p{
+	margin-top: .35rem;
+	}
+	.baseinfo-right p i{
+		color: #ffb136;
+		font-size: .2rem;
+		margin-right: 5px;
+	}
+  .baseinfo-more{
+	width: 1.4rem;
+	height: .36rem;
+	line-height: .36rem;
+	color: #fff;
+	border-radius: 40px;
+	margin: .1rem auto;
+  }
+  .baseinfo-title{
+	margin: .15rem 0;
+	padding-left: .2rem;
+  }
+  .baseinfo-title h1{
+	font-weight: bold;
+	margin-right: .2rem;
+  }
+  .baseinfo-title .action-last-time{
+	color: #878787;
+  }
+  .baseinfo-bottom {
+	margin-bottom: .1rem;
+  }
+  .baseinfo-bottom p {
+	line-height: .26rem;
+	padding: .1rem .2rem;
+  }
+  .baseinfo-bottom .baseinfo-label{
+	width: .26rem;
+	height: .26rem;
+	margin-right: .1rem;
+	vertical-align: middle; 
+  }
+  .info-title{
+	height: .4rem;
+	line-height: .4rem;
+	margin-bottom: .1rem;
+	padding-left: .2rem;
+  }
+  .info-title .info-title-label{
+	width: .4rem;
+	height: .4rem;
+	vertical-align: middle;
+	margin-right: .15rem;
+  }
+  .cmpc-right-button {
+	width: 1.2rem;
+	height: .36rem;
+	line-height: .36rem;
+	border-radius: 50px;
+	margin-bottom: .1rem;
+  }
+  
+  .button-location-setting{
+	right:.75rem;
+	top: .3rem;
+  }
+  
+  .task-paper-lists{
+	top: .35rem;
+	left: 0;
+	display: none;
+  }
+  
+  .task-paper-lists li{
+	white-space: nowrap;
+	min-width: 1.2rem;
+	text-align: left;
+  }
+  
+  .cmpc-right-button:hover .task-paper-lists{
+	display: block;
+  }
+  
+  .add-resource-container-content{
+		margin-left: .55rem;
+		margin-right: .55rem;
+		line-height: 26px;
+		font-size: 16px;
+	}
+	
+	.added-work-pro-content{
+		padding: .15rem;
+		border: 2px dashed #bbb;
+	}
+
+	.added-work-pro-content>p,
+	.added-work-pro-content li{
+		margin-bottom: .15rem;
+		padding-bottom: 0 !important;
+	}
+
+	.added-work-pro-content li div{
+		width : 6rem;
+	}
+
+	.added-work-pro-content span.Th-f-c-red-1{
+		text-decoration: underline;
+		right: .15rem;
+		top: .15rem;
+		cursor: pointer;
+	}
+
+	.work-project-detail-cont{
+		width: 8rem;
+	}
+
+	.work-project-detail-cont .added-work-pro-content{
+		border: none;
+	}
+
+	.work-project-detail-cont .el-dialog__body{
+		padding: 0;
+	}
+
+	.border-bottom span.Th-f-c-red-1,
+	.add-content-main-html span.Th-f-c-red-1,
+	.work-project-detail span.Th-f-c-red-1,
+	.task-preview-container span.Th-f-c-red-1,
+	.task-preview-content .teacher-students-scalel{
+		display: none !important;
+	}
+
+	.add-content-main-html{
+		border-top: 1px dashed #ddd;
+	}
+
+	.add-content-main-html:last-child{
+		border-bottom: none;
+	}
+
+	.work-project-detail-footer{
+		text-align: center;
+		border-top:1px solid #ddd;
+		padding: .1rem 0;
+	}
+
+	.work-project-detail-footer div{
+		padding:  0 .2rem;
+		height: .4rem;
+		line-height: .4rem;
+	}
+
+	.dialog-edit-grade .el-checkbox-group .el-checkbox{
+		width: 50%;
+	}
+
+	.all-mudel-list .el-checkbox__label{
+    font-size: .16rem;
+	}
+	
+	.choose-now-added-model .el-checkbox-group{
+		position: relative;
+	}
+
+	.choose-now-added-model .TF-temp-Arr-space{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.wtt-msi-name {
+		font-size: .16rem;
+	}
+
+	
+	.user-name .el-icon-time:before {
+		color: #fff !important;
+	}
+
+	.user-name-index .el-icon-time:before {
+		color: #535353 !important;
+	}
+	
+/* 星级大小 */
+.excellence-rate .el-rate__icon{
+	font-size: 14px;
+}
+.TH-f-c-red{
+	color: #ff3d3d;
+}
+.bc-confirm {
+	width: 6.25rem;
+}
+
+.bc-confirm .el-message-box__header {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.bc-confirm .el-message-box__title {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.bc-confirm .el-message-box__message {
+	font-size: 20px;
+	text-align: center;
+	padding: .7rem 0;
+}
+
+.bc-confirm .el-message-box__btns {
+	text-align: center;
+	clear: both;
+	zoom: 1;
+	width: 35%;
+	margin: 0 auto .4rem auto;
+}
+
+.bc-confirm .el-message-box__btns .el-button--default {
+	float: right;
+}
+
+.bc-confirm .el-message-box__btns .el-button--primary {
+	float: left;
+}
+.upload-demo .el-upload-list{
+	float: right;
+}

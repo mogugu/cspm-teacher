@@ -1,0 +1,259 @@
+
+  const ClassTaskIndexPage = {
+    template: '<ClassTaskIndex/>',
+    components: {
+      'ClassTaskIndex': ClassTaskIndex
+    }
+  }
+
+  const ClassTaskPublishPage = {
+    template: '<ClassTaskPublish/>',
+    components: {
+      'ClassTaskPublish': ClassTaskPublish
+    }
+  }
+
+  const ClassTaskDetailPage = {
+    template: '<ClassTaskDetail/>',
+    components: {
+      'ClassTaskDetail': ClassTaskDetail
+    }
+  }
+
+  const ClassTaskDetailTotalPage = {
+    template: '<ClassTaskDetailTotal/>',
+    components: {
+      'ClassTaskDetailTotal': ClassTaskDetailTotal
+    }
+  }
+
+  const ClassTaskDetailVideoPage = {
+    template: '<ClassTaskDetailVideo/>',
+    components: {
+      'ClassTaskDetailVideo': ClassTaskDetailVideo
+    }
+  }
+
+  const ClassTaskDetailPaperPage = {
+    template: '<ClassTaskDetailPaper/>',
+    components: {
+      'ClassTaskDetailPaper': ClassTaskDetailPaper
+    }
+  }
+
+  const ClassTaskDetailPaperMorePage = {
+    template: '<ClassTaskDetailPaperMore/>',
+    components: {
+      'ClassTaskDetailPaperMore': ClassTaskDetailPaperMore
+    }
+  }
+
+  const ClassTaskDetailFilePage = {
+    template: '<ClassTaskDetailFile/>',
+    components: {
+      'ClassTaskDetailFile': ClassTaskDetailFile
+    }
+  }
+
+  const ClassTaskDetailWorkPage = {
+    template: '<ClassTaskDetailWork/>',
+    components: {
+      'ClassTaskDetailWork': ClassTaskDetailWork
+    }
+  }
+
+  const ClassTaskDetailWorkManagePage = {
+    template: '<ClassTaskDetailWorkManage/>',
+    components: {
+      'ClassTaskDetailWorkManage': ClassTaskDetailWorkManage
+    }
+  }
+
+  const SourceRepoWorkTemplatePage = {
+    template: '<SourceRepoWorkTemplate/>',
+    components: {
+      'SourceRepoWorkTemplate': SourceRepoWorkTemplate
+    }
+  }
+
+  const SourceRepoWorkTemplateDetailPage = {
+    template: '<SourceRepoWorkTemplateDetail/>',
+    components: {
+      'SourceRepoWorkTemplateDetail': SourceRepoWorkTemplateDetail
+    }
+  }
+
+  const SourceRepoVideoPage = {
+    template: '<SourceRepoVideo/>',
+    components: {
+      'SourceRepoVideo': SourceRepoVideo
+    }
+  }
+
+  const SourceRepoVideoDetailPage = {
+    template: '<SourceRepoVideoDetail/>',
+    components: {
+      'SourceRepoVideoDetail': SourceRepoVideoDetail
+    }
+  }
+
+  const SourceRepoTestQuestionPage = {
+    template: '<SourceRepoTestQuestion/>',
+    components: {
+      'SourceRepoTestQuestion': SourceRepoTestQuestion
+    }
+  }
+
+  const SourceRepoPaperGeneratePage = {
+    template: '<SourceRepoPaperGenerate/>',
+    components: {
+      'SourceRepoPaperGenerate': SourceRepoPaperGenerate
+    }
+  }
+
+  const SourceRepoPaperPage = {
+    template: '<SourceRepoPaper/>',
+    components: {
+      'SourceRepoPaper': SourceRepoPaper
+    }
+  }
+
+  const SourceRepoPaperDetailPage = {
+    template: '<SourceRepoPaperDetail/>',
+    components: {
+      'SourceRepoPaperDetail': SourceRepoPaperDetail
+    }
+  }
+
+  const WorkRepoStudentPage = {
+    template: '<WorkRepoStudent/>',
+    components: {
+      'WorkRepoStudent': WorkRepoStudent
+    }
+  }
+
+  const WorkRepoPlatformPage = {
+    template: '<WorkRepoPlatform/>',
+    components: {
+      'WorkRepoPlatform': WorkRepoPlatform
+    }
+  }
+
+  const ClassManageIndexPage = {
+    template: '<ClassManageIndex/>',
+    components: {
+      'ClassManageIndex': ClassManageIndex
+    }
+  }
+
+  const ClassManageStudentPage = {
+    template: '<ClassManageStudent/>',
+    components: {
+      'ClassManageStudent': ClassManageStudent
+    }
+  }
+
+  const ClassManageStudentStasticPage = {
+    template: '<ClassManageStudentStastic/>',
+    components: {
+      'ClassManageStudentStastic': ClassManageStudentStastic
+    }
+  }
+
+  const ClassManageGoodPage = {
+    template: '<ClassManageGood/>',
+    components: {
+      'ClassManageGood': ClassManageGood
+    }
+  }
+
+  const PersonalCenterBasePage = {
+    template: '<PersonalCenterBase/>',
+    components: {
+      'PersonalCenterBase': PersonalCenterBase
+    }
+  }
+
+  const PersonalCenterBindPage = {
+    template: '<PersonalCenterBind/>',
+    components: {
+      'PersonalCenterBind': PersonalCenterBind
+    }
+  }
+
+  const PersonalCenterModifyPage = {
+    template: '<PersonalCenterModify/>',
+    components: {
+      'PersonalCenterModify': PersonalCenterModify
+    }
+  }
+
+  const PersonalSourceTaskTemplatePage = {
+    template: '<PersonalSourceTaskTemplate/>',
+    components: {
+      'PersonalSourceTaskTemplate': PersonalSourceTaskTemplate
+    }
+  }
+
+  const PersonalSourceTaskTemplateGeneratePage = {
+    template: '<PersonalSourceTaskTemplateGenerate/>',
+    components: {
+      'PersonalSourceTaskTemplateGenerate': PersonalSourceTaskTemplateGenerate
+    }
+  }
+
+  const PersonalSourceVideoPage = {
+    template: '<PersonalSourceVideo/>',
+    components: {
+      'PersonalSourceVideo': PersonalSourceVideo
+    }
+  }
+
+  const PersonalSourceVideoUploadPage = {
+    template: '<PersonalSourceVideoUpload/>',
+    components: {
+      'PersonalSourceVideoUpload': PersonalSourceVideoUpload
+    }
+  }
+
+  const PersonalSourceTestQuestionPage = {
+    template: '<PersonalSourceTestQuestion/>',
+    components: {
+      'PersonalSourceTestQuestion': PersonalSourceTestQuestion
+    }
+  }
+
+  const PersonalSourceTestQuestionUploadPage = {
+    template: '<PersonalSourceTestQuestionUpload/>',
+    components: {
+      'PersonalSourceTestQuestionUpload': PersonalSourceTestQuestionUpload
+    }
+  }
+
+  const PersonalSourcePaperPage = {
+    template: '<PersonalSourcePaper/>',
+    components: {
+      'PersonalSourcePaper': PersonalSourcePaper
+    }
+  }
+
+  const PersonalSourceFavoriteStudentPage = {
+    template: '<PersonalSourceFavoriteStudent/>',
+    components: {
+      'PersonalSourceFavoriteStudent': PersonalSourceFavoriteStudent
+    }
+  }
+
+  const PersonalSourceFavoritePlatformPage = {
+    template: '<PersonalSourceFavoritePlatform/>',
+    components: {
+      'PersonalSourceFavoritePlatform': PersonalSourceFavoritePlatform
+    }
+  }
+
+  const MessageIndexPage = {
+    template: '<MessageIndex/>',
+    components: {
+      'MessageIndex': MessageIndex
+    }
+  }

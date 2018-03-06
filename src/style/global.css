@@ -1,0 +1,551 @@
+@media screen and (min-width: 1024px) {
+  html{font-size: 53.33px;}
+  /* p {
+    font-size: 14px !important;
+  }
+  span {
+    font-size: 14px !important;
+  }
+  .fs-16 {
+    font-size: 16px !important;
+  } */
+}
+@media screen and (min-width: 1152px) {
+  html{font-size:60px;}
+  /* p {
+    font-size: 14px !important;
+  }
+  span {
+    font-size: 14px !important;
+  }
+  .fs-16 {
+    font-size: 16px !important;
+  } */
+}
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+  html{font-size:72px;}
+  .fs-13 {
+    font-size: 14px !important;
+  }
+  .fs-12 {
+    font-size: 14px !important;
+  }
+  .fs-14 {
+    font-size: 14px !important;
+  }
+  .fs-16 {
+    font-size: 16px !important;
+  }
+  .fs-18 {
+    font-size: 16px !important;
+  }
+
+  .fs-20 {
+    font-size: 18px !important;
+  }
+
+  .fs-22 {
+    font-size: 22px !important;
+  }
+  .fs-24 {
+    font-size: 22px !important;
+  }
+
+  .fs-26 {
+    font-size: 24px !important;
+  }
+
+  .action-class-list-all {
+    font-size: 14px !important;
+  }
+  .action-name-task,
+  .action-time-task {
+    font-size: 14px !important;
+  }
+  .source-nav-item-active {
+    font-size: 26px !important;
+  }
+  .wtl-item {
+    height: 1.3rem !important;
+  }
+  .w-detail-left-collect-active {
+    margin-left: 10px !important;
+  }
+  .paper-info-right-item {
+    font-size: 13px !important;
+  }
+  .video-list-item {
+    height: 3.1rem !important;
+  }
+  .video-list-item-info-left {
+    height: .3rem !important;
+    line-height: .3rem !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .video-list-item-info-right {
+    height: .3rem !important;
+    line-height: .3rem !important;
+  }
+  .video-list-item-absolute {
+    font-size: 14px;
+  }
+  .question-list-knowleges-location {
+    left: 5.9rem;
+    max-width: 6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+  }
+  .cm-stc-user {
+    margin-right: .25rem !important;
+  }
+  .cm-stc-info-item {
+    margin-right: .1rem !important;
+  }
+  .cmt-list-item {
+    height: 1.9rem !important;
+  }
+  .history-paper-one .message-of-paper p.inline-block {
+    /* width: auto !important; */
+  }
+  div.history-test-paper-message {
+    width: 10.4rem !important;
+  }
+  .history-paper-one .message-of-paper {
+    width: 3.8rem !important;
+  }
+  .person-center-base-info-headImgUrl .fl {
+    height: 4.2rem !important;
+  }
+  .person-center-base-info-headImgUrl .fr {
+    height: 4.2rem !important;
+  }
+  .dhb-button {
+    font-size: 14px !important; 
+  }
+  .edit-point-student {
+    margin-left: 0 !important;
+  }
+  .class-task-tag-list .task-score {
+    font-size: 14px;
+    width: 1rem;
+  }
+  .class-task-tag-list .task-finish {
+    font-size: 14px;
+  }
+  .class-task-tag-list .task-unfinish {
+    font-size: 14px;
+  }
+  .work-temp-top-mutil-select-item span.TH-f-c-link {
+    right: -.5rem;
+  }
+  .upload-to-mall-money:last-child {
+    width: 55% !important;
+  }
+  .upload-to-mall-money:first-child {
+    width: 45% !important;
+  }
+  .actor-message-left-width {
+    width: 1.1rem !important;
+    white-space: nowrap;
+  }
+  .first-step-button input {
+    font-size: 14px !important;
+  }
+  .plci-info-desc {
+    /* width: 4rem; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .plci-info-fav {
+    position: relative !important;
+    top: 0 !important;
+  }
+  /* .cmwl-item:nth-child(4n) {
+    margin-right: .32rem !important;
+  }
+  .cmwl-item:nth-child(3n) {
+    margin-right: 0 !important;
+  } */
+
+  .test-question-select,
+  .task-index-page-nav-left,
+  .wtt-search,
+  .courseware-select {
+    height: 1rem !important;
+  }
+  .wtt-choice {
+    height: 1rem !important;
+    line-height: 1rem !important;
+  }
+  .test-question-paper {
+    right: .8rem !important;
+    top: 3.6rem !important;
+  }
+  .paper-ge-top {
+    height: .9rem !important;
+  }
+  .paper-top-search {
+    height: .7rem !important;
+  }
+  div.drop-down-person-list i {
+    font-size: 14px !important;
+    width: 1.4rem !important;
+    line-height: .5rem !important;
+  }
+  .mts-column-item {
+    font-size: 15px !important;
+  }
+  .task-content-example {
+    width: 5.4rem !important;
+    height: 3.38rem !important;
+  }
+  .baseinfo-more {
+    width: 1.7rem !important;
+  }
+  .main-table-user-no {
+    left: 12% !important;
+  }
+  .mtu-content-section-item {
+    margin-top: .2rem !important;
+  }
+  .mtu-csi-label {
+    width: 42% !important;
+    text-align: left !important;
+  }
+  .taskwork-title>span::after {
+    width: .2rem !important;
+    height: .2rem !important;
+  }
+  .cms-task-main-list {
+    height: 7.5rem !important;
+  }
+  .cms-task-main-stastic {
+    height: 7.5rem !important;
+  }
+  .cms-tms-csi-rit-button {
+    width: 1.1rem !important;
+  }
+  .action-classes-list .action-class-list-all {
+    height: .2rem !important;
+  }
+  .mts-column-1 {
+    width: 2.7rem !important;
+  }
+	.wtt-msi-name {
+		font-size: .18rem !important;
+  }
+  .class-nav span{
+    margin-right: .35rem !important;
+  }
+  .src-option-item {
+    padding: 0 .2rem !important;
+  }
+  .action-classes-list .action-class-list-all {
+    height: 1.4rem !important;
+  }
+  .ant-left-img {
+    margin-left: 15% !important;
+  }
+  .action-nav-title {
+    height: 1rem !important;
+  }
+  .ant-theme-un.action-nav-title {
+    background-position-x: center;
+    background-position-y: center !important;
+  }
+  .ant-theme-out.action-nav-title {
+    background-position-x: center;
+    background-position-y: center !important;
+  }
+  .cmwl-item-right-title{
+    height: .22rem !important;
+  }
+  	/* 添加任务作品的可预览标签 */
+	.el-checkbox.dwic-check {
+    width: 1.9rem !important;
+  }
+}
+@media screen and (min-width: 1360px) {
+  html{font-size:80px;}
+  /* p {
+    font-size: 14px !important;
+  }
+  span {
+    font-size: 14px !important;
+  } */
+}
+@media screen and (min-width: 1366px) {
+  html{font-size:71.15px;}
+  /* p {
+    font-size: 14px !important;
+  }
+  span {
+    font-size: 14px !important;
+  } */
+}
+@media screen and (min-width: 1400px) {html{font-size:80px;}}
+@media screen and (min-width: 1440px) {html{font-size:80px;}}
+@media screen and (min-width: 1600px) {html{font-size:83.33px;}}
+@media screen and (min-width: 1680px) {html{font-size:87.5px;}}
+@media screen and (min-width: 1920px) {html{font-size:100px;}}
+
+html {
+  min-height: 100%;
+  height:100%;
+  width:100%;
+}
+
+body {
+  height:100%;
+  width:100%;
+  background: #f8f8f8;
+  font-family:  "MicroSoft YaHei","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  font-size: .14rem;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+textarea {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.clear-a {
+  clear: both;
+  overflow: auto;
+  zoom: 1;
+}
+
+.relative{
+  position: relative;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*fontSize*/
+.fs-12-px{
+  font-size: 12px;
+}
+
+.fs-12{
+  font-size: .14rem;
+  text-size-adjust:none;
+}
+
+.fs-13-px{
+  font-size: 13px;
+}
+
+.fs-13{
+  font-size: .16rem;
+  text-size-adjust:none;
+}
+
+.fs-14 {
+  font-size: .16rem;
+  text-size-adjust:none;
+}
+
+.fs-14-px {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: .18rem;
+  text-size-adjust:none;
+}
+
+.fs-16-px {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: .20rem;
+  text-size-adjust:none;
+}
+
+.fs-18-px {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: .22rem;
+  text-size-adjust:none;
+}
+
+.fs-20-px {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: .24rem;
+  text-size-adjust:none;
+}
+
+.fs-22-px {
+  font-size: 22px;
+}
+
+.fs-24 {
+  font-size: .26rem;
+  text-size-adjust:none;
+}
+
+.fs-24-px {
+  font-size: 24px;
+}
+
+.fs-26 {
+  font-size: .28rem;
+  text-size-adjust:none;
+}
+
+.fs-26-px {
+  font-size: 26px;
+}
+
+.fs-28 {
+  font-size: .30rem;
+}
+
+.fs-28-px {
+  font-size: 28px;
+}
+
+.fs-30 {
+  font-size: .32rem;
+}
+
+.fs-30-px {
+  font-size: 30px;
+}
+
+.fs-40{
+  font-size: .42rem;
+}
+
+/*position*/
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/*cursor*/
+.cp {
+  cursor: pointer;
+}
+
+/*fontWeight*/
+.fwb {
+  font-weight: bold;
+}
+
+.fwn {
+  font-weight: normal;
+}
+
+/*textAlign*/
+.ta-c {
+  text-align: center;
+}
+
+.ta-j {
+  text-align: justify;
+}
+
+/*whiteSpace*/
+
+.ws-no {
+  white-space: nowrap;
+}
+
+/*input style*/
+.otl-none {
+  outline: none;
+  border: none;
+}
+
+/*borderRadius*/
+.br-circle {
+  border-radius: 50%;
+}
+
+/*textOverflow*/
+.tof {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#app{
+
+}
+
+.global-router {
+  /*min-height: 500px;*/
+}
+
+/*button共用css*/
+.button{
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+
+.img-mid{
+  vertical-align: middle;
+}
+
+/* 通用样式 */
+.card-shadow{
+  border-radius: .04rem;
+  box-shadow: 0 .02rem .05rem rgba(2,22,37,.3);
+}
+
+.button-default{
+  border-radius: 0 0 4px 4px;
+  background-color: #3283d3;
+  box-shadow: 0 1px 2px rgba(2,22,37,.3);
+  background-image: linear-gradient(to top, #32abd3, #3283d3);
+}
+
+.button-default:hover{
+  background-image: linear-gradient(to top, #3ebbe4, #4093e4);
+}
+
+.fs-color-green{
+  color: #209f10;
+}
+.cmwl-item-right-title{
+  margin: .1rem .1rem .25rem .1rem;
+  height: .2rem;
+}

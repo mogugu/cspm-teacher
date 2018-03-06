@@ -1,0 +1,28 @@
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-active {
+  transform: translateY(3rem);
+  opacity: 0;
+}
+
+.swipe-fade-enter-active {
+  transition: all .3s ease;
+}
+.swipe-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.swipe-fade-enter, .swipe-fade-leave-active {
+  transform: translateX(-3rem);
+  opacity: 0;
+}
+
+.cover-fade-enter-active, .cover-fade-leave-active {
+  transition: opacity .5s
+}
+.cover-fade-enter, .cover-fade-leave-active {
+  opacity: 0
+}

@@ -1,0 +1,17 @@
+/*font-color*/
+.f-c-default {
+  color: #666;
+}
+
+.f-c-active {
+  color: #f00;
+}
+
+/*bg-color*/
+.bg-c-default {
+  color: #f5f5f5;
+}
+
+.bg-c-level-1 {
+  color: #f2f2f2;
+}

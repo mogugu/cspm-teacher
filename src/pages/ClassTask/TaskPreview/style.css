@@ -1,0 +1,114 @@
+.global-router{
+    padding-bottom: 0 !important;
+}
+
+.task-preview-container{
+    width: 12rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(2,22,37,.3);
+    background-color: rgba(255,255,255,.8);
+    margin-bottom: 1rem;
+}
+
+.task-preview-content{  
+    margin-left: .2rem;
+    background-color: #f6f6f6;
+    border-bottom: 1px dashed #ddd;
+}
+
+.task-preview-content:last-child{
+    border-bottom: none;
+}
+
+.left-white-content{
+    width: 9rem;
+    background-color: rgba(255,255,255,.8);
+    padding-bottom: .1rem;
+}
+
+.right-dark-content{
+    top: .2rem;
+    left: 9.9rem;
+}
+
+.common-img-text-middle-left{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex-box;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    /* justify-content:center; */
+}
+
+.left-white-content p.fs-20{
+    padding-top: .25rem;
+    padding-bottom: .15rem;
+}
+
+.left-white-content>ul li{
+    height: .26rem;
+    padding-bottom: .1rem;
+}
+
+.left-white-content ul li img{
+    max-height: 100%;
+    margin-right: .1rem;
+}
+
+.task-added-resource-title{
+    padding-top: .15rem;
+    padding-bottom: .1rem;
+    height: .4rem;
+}
+
+.task-added-resource-title img{
+    max-height: 100%;
+    margin-right: .1rem;
+}
+
+.active-click-route{
+    color: #3283d3;
+    text-decoration: underline;
+}
+
+.task-added-resource-content{
+    font-size: 16px;
+    margin-left: .5rem;
+    line-height: 26px;
+}
+
+.task-preview-content .TH-button-primary{
+    padding: 0 .2rem;
+    height: .34rem;
+    line-height: .34rem;
+    border-radius: .2rem;
+}
+
+.task-preview-content .right-dark-content:hover .task-paper-lists{
+    display: block;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.task-paper-lists{
+    display: none;
+    color: #535353;
+    margin-top: 1px;
+    z-index: 999;
+}
+
+.task-paper-lists li{
+    padding: 0 .2rem;
+    line-height: .4rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task-paper-lists li:hover{
+    background-color: #eef9fe;
+}
